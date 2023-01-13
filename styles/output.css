@@ -513,24 +513,45 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.fixed {
-  position: fixed;
+.absolute {
+  position: absolute;
 }
 
 .bottom-0 {
   bottom: 0px;
 }
 
-.m-32 {
-  margin: 8rem;
+.bottom-4 {
+  bottom: 1rem;
+}
+
+.m-48 {
+  margin: 12rem;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.m-40 {
+  margin: 10rem;
+}
+
+.my-40 {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.mt-40 {
+  margin-top: 10rem;
+}
+
+.block {
+  display: block;
 }
 
 .flex {
   display: flex;
-}
-
-.h-screen {
-  height: 100vh;
 }
 
 .h-64 {
@@ -541,16 +562,20 @@ video {
   height: 12rem;
 }
 
-.h-16 {
-  height: 4rem;
-}
-
 .h-8 {
   height: 2rem;
 }
 
-.h-1 {
-  height: 0.25rem;
+.h-96 {
+  height: 24rem;
+}
+
+.h-40 {
+  height: 10rem;
+}
+
+.h-16 {
+  height: 4rem;
 }
 
 .w-screen {
@@ -565,20 +590,32 @@ video {
   width: 2rem;
 }
 
+.w-96 {
+  width: 24rem;
+}
+
+.w-40 {
+  width: 10rem;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.items-center {
+  align-items: center;
+}
+
 .justify-center {
   justify-content: center;
 }
 
-.gap-16 {
-  gap: 4rem;
-}
-
 .gap-8 {
   gap: 2rem;
-}
-
-.gap-4 {
-  gap: 1rem;
 }
 
 .rounded-full {
