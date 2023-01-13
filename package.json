@@ -1,0 +1,23 @@
+{
+  "name": "naakaamura.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npx tailwindcss -i styles/styles.css -o styles/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naakaamura/naakaamura.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naakaamura/naakaamura.github.io/issues"
+  },
+  "homepage": "https://github.com/naakaamura/naakaamura.github.io#readme",
+  "dependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
