@@ -569,6 +569,16 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.animate-blink {
+  animation: blink 1s step-start infinite;
+}
+
 @keyframes type {
   0% {
     width: 0ch;
@@ -617,16 +627,6 @@ video {
 
 .animate-type {
   animation: type 1.25s ease-out .5s 1 normal both;
-}
-
-@keyframes blink {
-  50% {
-    opacity: 0;
-  }
-}
-
-.animate-blink {
-  animation: blink 1s step-start infinite;
 }
 
 .flex-wrap {
